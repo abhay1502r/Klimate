@@ -1,7 +1,6 @@
-import React from 'react';
 import type { GeocodingResponse, WeatherData } from '../api/types';
 import { Card, CardContent } from './ui/card';
-import { ArrowDown, ArrowUp, Droplet, Droplets, Wind } from 'lucide-react';
+import { ArrowDown, ArrowUp, Droplets, Wind } from 'lucide-react';
 
 interface CurrentWeatherProps {
     data: WeatherData;

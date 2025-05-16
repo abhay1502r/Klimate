@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { CommandDialog, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator } from "./ui/command";
-import { Clock, Loader, Loader2, Search, Star, XCircle } from "lucide-react";
-import { add, format, set } from "date-fns";
+import { Clock, Loader2, Search, Star, XCircle } from "lucide-react";
+import { format } from "date-fns";
 import { useLocationSearch } from "../hooks/use-weather";
 import { useNavigate } from "react-router-dom";
 import { useSearchHistory } from "../hooks/use-search-history";
